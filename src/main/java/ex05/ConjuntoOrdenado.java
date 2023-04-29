@@ -9,6 +9,7 @@ public class ConjuntoOrdenado <T extends Comparable<T>>{
 
     List<T> conj = new ArrayList<>();
 
+
     public void adicionar(T element){
         conj.add(element);
         Collections.sort(conj);
